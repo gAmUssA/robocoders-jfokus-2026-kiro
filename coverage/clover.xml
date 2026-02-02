@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770025884886" clover="3.2.0">
+  <project timestamp="1770025884886" name="All files">
+    <metrics statements="522" coveredstatements="464" conditionals="294" coveredconditionals="246" methods="108" coveredmethods="96" elements="924" coveredelements="806" complexity="0" loc="522" ncloc="522" packages="4" files="21" classes="21"/>
+    <package name="components">
+      <metrics statements="225" coveredstatements="173" conditionals="132" coveredconditionals="100" methods="59" coveredmethods="49"/>
+      <file name="App.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/App.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="App.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/App.tsx">
+        <metrics statements="97" coveredstatements="69" conditionals="49" coveredconditionals="32" methods="14" coveredmethods="13"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="20" type="stmt"/>
+        <line num="50" count="20" type="stmt"/>
+        <line num="79" count="106" type="cond" truecount="10" falsecount="7"/>
+        <line num="81" count="20" type="stmt"/>
+        <line num="87" count="15" type="stmt"/>
+        <line num="93" count="22" type="stmt"/>
+        <line num="103" count="6" type="stmt"/>
+        <line num="118" count="11" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="143" count="1" type="stmt"/>
+        <line num="153" count="15" type="stmt"/>
+        <line num="163" count="3" type="stmt"/>
+        <line num="174" count="12" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="194" count="1" type="stmt"/>
+        <line num="206" count="0" type="stmt"/>
+        <line num="215" count="0" type="stmt"/>
+        <line num="224" count="0" type="stmt"/>
+        <line num="233" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="248" count="61" type="stmt"/>
+        <line num="249" count="61" type="stmt"/>
+        <line num="250" count="61" type="stmt"/>
+        <line num="251" count="61" type="stmt"/>
+        <line num="254" count="61" type="stmt"/>
+        <line num="261" count="61" type="stmt"/>
+        <line num="262" count="20" type="stmt"/>
+        <line num="269" count="61" type="stmt"/>
+        <line num="270" count="20" type="stmt"/>
+        <line num="271" count="20" type="stmt"/>
+        <line num="273" count="20" type="stmt"/>
+        <line num="275" count="20" type="stmt"/>
+        <line num="278" count="20" type="stmt"/>
+        <line num="280" count="20" type="stmt"/>
+        <line num="282" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="287" count="20" type="stmt"/>
+        <line num="290" count="20" type="stmt"/>
+        <line num="291" count="20" type="stmt"/>
+        <line num="292" count="20" type="cond" truecount="1" falsecount="1"/>
+        <line num="293" count="20" type="stmt"/>
+        <line num="302" count="61" type="stmt"/>
+        <line num="303" count="22" type="stmt"/>
+        <line num="305" count="22" type="stmt"/>
+        <line num="307" count="22" type="stmt"/>
+        <line num="310" count="22" type="stmt"/>
+        <line num="314" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="315" count="7" type="stmt"/>
+        <line num="322" count="7" type="stmt"/>
+        <line num="325" count="15" type="stmt"/>
+        <line num="330" count="15" type="stmt"/>
+        <line num="333" count="0" type="stmt"/>
+        <line num="338" count="0" type="stmt"/>
+        <line num="346" count="61" type="stmt"/>
+        <line num="347" count="7" type="stmt"/>
+        <line num="357" count="61" type="stmt"/>
+        <line num="358" count="0" type="stmt"/>
+        <line num="360" count="0" type="stmt"/>
+        <line num="367" count="0" type="stmt"/>
+        <line num="373" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="375" count="0" type="stmt"/>
+        <line num="378" count="0" type="stmt"/>
+        <line num="381" count="0" type="stmt"/>
+        <line num="389" count="61" type="stmt"/>
+        <line num="390" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="391" count="0" type="stmt"/>
+        <line num="394" count="1" type="stmt"/>
+        <line num="395" count="1" type="stmt"/>
+        <line num="397" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="398" count="1" type="stmt"/>
+        <line num="404" count="0" type="stmt"/>
+        <line num="409" count="0" type="stmt"/>
+        <line num="412" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="413" count="0" type="stmt"/>
+        <line num="417" count="0" type="stmt"/>
+        <line num="418" count="0" type="stmt"/>
+        <line num="429" count="61" type="stmt"/>
+        <line num="430" count="20" type="cond" truecount="1" falsecount="1"/>
+        <line num="431" count="0" type="stmt"/>
+        <line num="434" count="20" type="stmt"/>
+        <line num="436" count="20" type="stmt"/>
+        <line num="437" count="20" type="stmt"/>
+        <line num="439" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="440" count="3" type="stmt"/>
+        <line num="442" count="17" type="stmt"/>
+        <line num="445" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="446" count="17" type="stmt"/>
+        <line num="450" count="0" type="stmt"/>
+        <line num="451" count="0" type="stmt"/>
+        <line num="459" count="61" type="stmt"/>
+        <line num="461" count="1" type="stmt"/>
+        <line num="464" count="1" type="stmt"/>
+        <line num="471" count="61" type="stmt"/>
+        <line num="472" count="2" type="stmt"/>
+        <line num="476" count="61" type="stmt"/>
+        <line num="478" count="61" type="stmt"/>
+      </file>
+      <file name="ColorSwatch.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ColorSwatch.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ColorSwatch.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ColorSwatch.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="32" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="13" type="stmt"/>
+      </file>
+      <file name="ErrorDisplay.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ErrorDisplay.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ErrorDisplay.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ErrorDisplay.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="32" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="18" type="stmt"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="51" count="29" type="stmt"/>
+        <line num="52" count="29" type="stmt"/>
+        <line num="55" count="29" type="stmt"/>
+        <line num="56" count="29" type="stmt"/>
+        <line num="58" count="29" type="stmt"/>
+      </file>
+      <file name="ManualColorPicker.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ManualColorPicker.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="ManualColorPicker.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/ManualColorPicker.tsx">
+        <metrics statements="48" coveredstatements="30" conditionals="11" coveredconditionals="3" methods="23" coveredmethods="14"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="44" count="49" type="stmt"/>
+        <line num="47" count="49" type="stmt"/>
+        <line num="48" count="30" type="stmt"/>
+        <line num="54" count="49" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="66" count="49" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="79" count="49" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="97" count="49" type="stmt"/>
+        <line num="100" count="49" type="stmt"/>
+        <line num="103" count="49" type="stmt"/>
+        <line num="104" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="49" type="stmt"/>
+        <line num="132" count="2" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="226" count="0" type="stmt"/>
+        <line num="241" count="2" type="stmt"/>
+        <line num="248" count="1" type="stmt"/>
+        <line num="255" count="1" type="stmt"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="269" count="0" type="stmt"/>
+        <line num="276" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="290" count="0" type="stmt"/>
+      </file>
+      <file name="SettingsPanel.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/SettingsPanel.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="SettingsPanel.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/SettingsPanel.tsx">
+        <metrics statements="40" coveredstatements="37" conditionals="35" coveredconditionals="32" methods="9" coveredmethods="9"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="52" count="47" type="stmt"/>
+        <line num="53" count="47" type="stmt"/>
+        <line num="54" count="47" type="stmt"/>
+        <line num="55" count="47" type="stmt"/>
+        <line num="58" count="47" type="stmt"/>
+        <line num="59" count="21" type="stmt"/>
+        <line num="60" count="21" type="stmt"/>
+        <line num="67" count="47" type="stmt"/>
+        <line num="68" count="5" type="stmt"/>
+        <line num="75" count="47" type="stmt"/>
+        <line num="76" count="5" type="stmt"/>
+        <line num="77" count="5" type="stmt"/>
+        <line num="80" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="87" count="5" type="stmt"/>
+        <line num="94" count="47" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="96" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="103" count="47" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="106" count="4" type="stmt"/>
+        <line num="107" count="4" type="stmt"/>
+        <line num="108" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="119" count="47" type="stmt"/>
+        <line num="120" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="124" count="2" type="stmt"/>
+        <line num="134" count="47" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="142" count="47" type="cond" truecount="2" falsecount="0"/>
+        <line num="144" count="47" type="stmt"/>
+        <line num="235" count="92" type="stmt"/>
+      </file>
+      <file name="StatusIndicator.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/StatusIndicator.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="StatusIndicator.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/StatusIndicator.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="11" coveredconditionals="9" methods="5" coveredmethods="5"/>
+        <line num="29" count="25" type="cond" truecount="2" falsecount="1"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="43" count="25" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="59" count="13" type="stmt"/>
+        <line num="80" count="12" type="stmt"/>
+        <line num="99" count="25" type="stmt"/>
+        <line num="100" count="25" type="stmt"/>
+        <line num="101" count="25" type="stmt"/>
+        <line num="103" count="25" type="stmt"/>
+      </file>
+      <file name="VideoFeed.module.css" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/VideoFeed.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="VideoFeed.tsx" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/components/VideoFeed.tsx">
+        <metrics statements="11" coveredstatements="10" conditionals="14" coveredconditionals="12" methods="3" coveredmethods="3"/>
+        <line num="24" count="23" type="stmt"/>
+        <line num="27" count="23" type="stmt"/>
+        <line num="28" count="23" type="stmt"/>
+        <line num="29" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="12" type="cond" truecount="3" falsecount="1"/>
+        <line num="32" count="12" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="39" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="12" type="stmt"/>
+        <line num="45" count="23" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="252" coveredstatements="248" conditionals="140" coveredconditionals="124" methods="40" coveredmethods="38"/>
+      <file name="ColorExtractor.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/services/ColorExtractor.ts">
+        <metrics statements="88" coveredstatements="87" conditionals="37" coveredconditionals="36" methods="10" coveredmethods="10"/>
+        <line num="33" count="15" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="39" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="13" type="stmt"/>
+        <line num="50" count="13" type="stmt"/>
+        <line num="53" count="13" type="stmt"/>
+        <line num="55" count="13" type="stmt"/>
+        <line num="71" count="15" type="stmt"/>
+        <line num="72" count="15" type="stmt"/>
+        <line num="73" count="15" type="stmt"/>
+        <line num="75" count="15" type="stmt"/>
+        <line num="76" count="111601" type="stmt"/>
+        <line num="77" count="111601" type="stmt"/>
+        <line num="78" count="111601" type="stmt"/>
+        <line num="79" count="111601" type="stmt"/>
+        <line num="82" count="111601" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="111576" type="cond" truecount="3" falsecount="0"/>
+        <line num="84" count="111576" type="cond" truecount="3" falsecount="0"/>
+        <line num="85" count="111576" type="cond" truecount="4" falsecount="0"/>
+        <line num="86" count="5000" type="stmt"/>
+        <line num="90" count="106601" type="stmt"/>
+        <line num="93" count="15" type="stmt"/>
+        <line num="110" count="13" type="stmt"/>
+        <line num="112" count="13" type="stmt"/>
+        <line num="114" count="15" type="stmt"/>
+        <line num="115" count="72" type="stmt"/>
+        <line num="117" count="15" type="stmt"/>
+        <line num="118" count="117850" type="stmt"/>
+        <line num="119" count="117850" type="stmt"/>
+        <line num="123" count="15" type="stmt"/>
+        <line num="124" count="15" type="stmt"/>
+        <line num="126" count="15" type="stmt"/>
+        <line num="127" count="72" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="51" type="stmt"/>
+        <line num="130" count="51" type="stmt"/>
+        <line num="133" count="21" type="stmt"/>
+        <line num="134" count="21" type="stmt"/>
+        <line num="137" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="143" count="15" type="stmt"/>
+        <line num="146" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="147" count="13" type="stmt"/>
+        <line num="152" count="15" type="stmt"/>
+        <line num="153" count="66" type="stmt"/>
+        <line num="155" count="15" type="stmt"/>
+        <line num="156" count="106600" type="stmt"/>
+        <line num="157" count="106600" type="stmt"/>
+        <line num="160" count="13" type="stmt"/>
+        <line num="171" count="13" type="stmt"/>
+        <line num="172" count="13" type="stmt"/>
+        <line num="175" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="176" count="67" type="stmt"/>
+        <line num="177" count="67" type="cond" truecount="2" falsecount="0"/>
+        <line num="178" count="66" type="stmt"/>
+        <line num="179" count="66" type="stmt"/>
+        <line num="183" count="13" type="stmt"/>
+        <line num="194" count="224450" type="stmt"/>
+        <line num="195" count="224450" type="stmt"/>
+        <line num="197" count="224450" type="stmt"/>
+        <line num="198" count="867800" type="stmt"/>
+        <line num="199" count="867800" type="cond" truecount="2" falsecount="0"/>
+        <line num="200" count="16939" type="stmt"/>
+        <line num="201" count="16939" type="stmt"/>
+        <line num="205" count="224450" type="stmt"/>
+        <line num="215" count="21" type="cond" truecount="1" falsecount="1"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="219" count="21" type="stmt"/>
+        <line num="220" count="21" type="stmt"/>
+        <line num="221" count="21" type="stmt"/>
+        <line num="223" count="21" type="stmt"/>
+        <line num="224" count="117850" type="stmt"/>
+        <line num="225" count="117850" type="stmt"/>
+        <line num="226" count="117850" type="stmt"/>
+        <line num="229" count="21" type="stmt"/>
+        <line num="244" count="1092271" type="stmt"/>
+        <line num="245" count="1092271" type="stmt"/>
+        <line num="246" count="1092271" type="stmt"/>
+        <line num="247" count="1092271" type="stmt"/>
+        <line num="257" count="13" type="stmt"/>
+        <line num="258" count="13" type="stmt"/>
+        <line num="260" count="13" type="stmt"/>
+        <line num="261" count="66" type="cond" truecount="2" falsecount="0"/>
+        <line num="262" count="15" type="stmt"/>
+        <line num="263" count="15" type="stmt"/>
+        <line num="267" count="13" type="stmt"/>
+      </file>
+      <file name="ShellyController.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/services/ShellyController.ts">
+        <metrics statements="87" coveredstatements="84" conditionals="60" coveredconditionals="46" methods="19" coveredmethods="17"/>
+        <line num="34" count="40" type="stmt"/>
+        <line num="35" count="40" type="stmt"/>
+        <line num="36" count="40" type="stmt"/>
+        <line num="37" count="40" type="stmt"/>
+        <line num="38" count="40" type="stmt"/>
+        <line num="39" count="40" type="stmt"/>
+        <line num="40" count="40" type="stmt"/>
+        <line num="43" count="40" type="stmt"/>
+        <line num="51" count="31" type="stmt"/>
+        <line num="59" count="31" type="stmt"/>
+        <line num="70" count="31" type="stmt"/>
+        <line num="71" count="31" type="stmt"/>
+        <line num="72" count="31" type="stmt"/>
+        <line num="75" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="20" type="stmt"/>
+        <line num="77" count="20" type="stmt"/>
+        <line num="79" count="11" type="stmt"/>
+        <line num="81" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="82" count="11" type="stmt"/>
+        <line num="86" count="31" type="stmt"/>
+        <line num="90" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="25" type="stmt"/>
+        <line num="102" count="25" type="cond" truecount="3" falsecount="1"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="25" type="stmt"/>
+        <line num="108" count="25" type="stmt"/>
+        <line num="109" count="31" type="stmt"/>
+        <line num="110" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="111" count="31" type="stmt"/>
+        <line num="115" count="25" type="stmt"/>
+        <line num="124" count="31" type="stmt"/>
+        <line num="125" count="31" type="stmt"/>
+        <line num="127" count="31" type="stmt"/>
+        <line num="128" count="31" type="stmt"/>
+        <line num="129" count="31" type="stmt"/>
+        <line num="134" count="22" type="stmt"/>
+        <line num="136" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="143" count="21" type="stmt"/>
+        <line num="147" count="20" type="stmt"/>
+        <line num="156" count="31" type="stmt"/>
+        <line num="161" count="10" type="stmt"/>
+        <line num="164" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="165" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="173" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="174" count="8" type="stmt"/>
+        <line num="182" count="1" type="stmt"/>
+        <line num="195" count="7" type="stmt"/>
+        <line num="196" count="7" type="stmt"/>
+        <line num="205" count="13" type="stmt"/>
+        <line num="206" count="13" type="stmt"/>
+        <line num="208" count="13" type="stmt"/>
+        <line num="209" count="13" type="stmt"/>
+        <line num="210" count="13" type="stmt"/>
+        <line num="215" count="7" type="stmt"/>
+        <line num="217" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="218" count="1" type="stmt"/>
+        <line num="221" count="6" type="stmt"/>
+        <line num="224" count="6" type="stmt"/>
+        <line num="233" count="13" type="stmt"/>
+        <line num="235" count="6" type="stmt"/>
+        <line num="236" count="6" type="stmt"/>
+        <line num="245" count="4" type="stmt"/>
+        <line num="247" count="4" type="stmt"/>
+        <line num="248" count="4" type="stmt"/>
+        <line num="256" count="7" type="stmt"/>
+        <line num="264" count="13" type="stmt"/>
+        <line num="273" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="274" count="2" type="stmt"/>
+        <line num="277" count="14" type="stmt"/>
+        <line num="278" count="14" type="stmt"/>
+        <line num="286" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="287" count="0" type="stmt"/>
+        <line num="290" count="16" type="stmt"/>
+        <line num="291" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="292" count="0" type="stmt"/>
+        <line num="296" count="4" type="stmt"/>
+        <line num="298" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="299" count="2" type="stmt"/>
+        <line num="300" count="2" type="stmt"/>
+        <line num="303" count="2" type="stmt"/>
+        <line num="313" count="27" type="stmt"/>
+        <line num="315" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="316" count="6" type="stmt"/>
+        <line num="317" count="6" type="stmt"/>
+        <line num="326" count="1" type="stmt"/>
+      </file>
+      <file name="WebcamService.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/services/WebcamService.ts">
+        <metrics statements="77" coveredstatements="77" conditionals="43" coveredconditionals="42" methods="11" coveredmethods="11"/>
+        <line num="61" count="45" type="stmt"/>
+        <line num="62" count="45" type="stmt"/>
+        <line num="63" count="45" type="stmt"/>
+        <line num="64" count="45" type="stmt"/>
+        <line num="65" count="45" type="stmt"/>
+        <line num="66" count="45" type="stmt"/>
+        <line num="67" count="45" type="stmt"/>
+        <line num="68" count="45" type="stmt"/>
+        <line num="69" count="45" type="stmt"/>
+        <line num="75" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="12" type="cond" truecount="7" falsecount="0"/>
+        <line num="79" count="7" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="97" count="341" type="cond" truecount="6" falsecount="0"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="102" count="338" type="stmt"/>
+        <line num="103" count="338" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="194" type="stmt"/>
+        <line num="105" count="194" type="stmt"/>
+        <line num="108" count="144" type="stmt"/>
+        <line num="111" count="144" type="cond" truecount="2" falsecount="0"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+        <line num="117" count="143" type="cond" truecount="4" falsecount="0"/>
+        <line num="118" count="8" type="stmt"/>
+        <line num="119" count="8" type="stmt"/>
+        <line num="123" count="143" type="stmt"/>
+        <line num="126" count="143" type="stmt"/>
+        <line num="129" count="143" type="stmt"/>
+        <line num="132" count="143" type="stmt"/>
+        <line num="135" count="45" type="stmt"/>
+        <line num="137" count="42" type="stmt"/>
+        <line num="139" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="7" type="stmt"/>
+        <line num="141" count="7" type="stmt"/>
+        <line num="142" count="7" type="stmt"/>
+        <line num="146" count="42" type="stmt"/>
+        <line num="154" count="42" type="stmt"/>
+        <line num="156" count="29" type="stmt"/>
+        <line num="157" count="29" type="stmt"/>
+        <line num="159" count="29" type="stmt"/>
+        <line num="161" count="13" type="stmt"/>
+        <line num="162" count="13" type="stmt"/>
+        <line num="163" count="13" type="stmt"/>
+        <line num="168" count="6" type="stmt"/>
+        <line num="169" count="6" type="stmt"/>
+        <line num="170" count="5" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="173" count="1" type="stmt"/>
+        <line num="179" count="12" type="stmt"/>
+        <line num="180" count="12" type="stmt"/>
+        <line num="182" count="12" type="stmt"/>
+        <line num="185" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="186" count="11" type="stmt"/>
+        <line num="187" count="11" type="stmt"/>
+        <line num="191" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="192" count="12" type="stmt"/>
+        <line num="193" count="12" type="stmt"/>
+        <line num="194" count="12" type="stmt"/>
+        <line num="198" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="199" count="11" type="stmt"/>
+        <line num="203" count="12" type="stmt"/>
+        <line num="204" count="12" type="stmt"/>
+        <line num="209" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="210" count="4" type="stmt"/>
+        <line num="211" count="4" type="stmt"/>
+        <line num="215" count="7" type="stmt"/>
+        <line num="218" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="219" count="4" type="stmt"/>
+        <line num="220" count="4" type="stmt"/>
+        <line num="225" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="226" count="6" type="stmt"/>
+        <line num="231" count="10" type="stmt"/>
+        <line num="235" count="12" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/types/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="45" coveredstatements="43" conditionals="22" coveredconditionals="22" methods="9" coveredmethods="9"/>
+      <file name="ConfigManager.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/utils/ConfigManager.ts">
+        <metrics statements="32" coveredstatements="30" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="22" count="24" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="24" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="45" count="16" type="stmt"/>
+        <line num="46" count="16" type="stmt"/>
+        <line num="49" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="56" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="63" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="69" count="9" type="stmt"/>
+        <line num="74" count="9" type="stmt"/>
+        <line num="76" count="8" type="stmt"/>
+        <line num="77" count="8" type="stmt"/>
+        <line num="85" count="22" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+      </file>
+      <file name="colorUtils.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/utils/colorUtils.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="38" count="18" type="stmt"/>
+        <line num="39" count="18" type="stmt"/>
+        <line num="40" count="18" type="stmt"/>
+        <line num="42" count="18" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="errorUtils.ts" path="/Users/vikgamov/projects/ai/robocoders-jfokus-2026-kiro/src/utils/errorUtils.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="33" count="26" type="stmt"/>
+        <line num="44" count="19" type="stmt"/>
+        <line num="55" count="34" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

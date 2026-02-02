@@ -1,0 +1,348 @@
+/**
+ * SettingsPanel Component Styles - HUD / Sci-Fi FUI Theme
+ * 
+ * Futuristic configuration panel with holographic elements
+ * Requirements: 8.1, 8.2, 8.3, 8.4
+ */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 520px;
+  background: var(--hud-bg-panel);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+  box-shadow: 
+    var(--hud-glow-md),
+    0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: panel-appear 0.3s ease-out;
+}
+
+@keyframes panel-appear {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-lg);
+  background: var(--hud-bg-light);
+  border-bottom: 1px solid var(--hud-border);
+  position: relative;
+}
+
+/* Animated top border */
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--hud-primary), transparent);
+  animation: hud-data-stream 3s linear infinite;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--hud-primary);
+  text-shadow: var(--hud-glow-sm);
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 1.25rem;
+  color: var(--hud-text-dim);
+  background: var(--hud-bg-medium);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: var(--hud-error);
+  border-color: var(--hud-error);
+  box-shadow: 0 0 10px var(--hud-error-glow);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  padding: var(--space-xl);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--hud-text-secondary);
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.input {
+  width: 100%;
+  padding: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--hud-text-primary);
+  background: var(--hud-bg-medium);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--hud-primary);
+  box-shadow: var(--hud-glow-sm);
+}
+
+.inputError {
+  border-color: var(--hud-error);
+}
+
+.inputError:focus {
+  border-color: var(--hud-error);
+  box-shadow: 0 0 10px var(--hud-error-glow);
+}
+
+.errorText {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--hud-error);
+  padding-left: var(--space-sm);
+}
+
+.connectionTest {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.testButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md) var(--space-xl);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hud-text-secondary);
+  background: var(--hud-bg-light);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.testButton:hover:not(:disabled) {
+  color: var(--hud-primary);
+  border-color: var(--hud-primary);
+  box-shadow: var(--hud-glow-sm);
+}
+
+.testButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.statusTesting {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--hud-warning);
+}
+
+.statusSuccess {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--hud-accent);
+  text-shadow: 0 0 5px var(--hud-accent-glow);
+}
+
+.statusError {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--hud-error);
+  text-shadow: 0 0 5px var(--hud-error-glow);
+}
+
+.select {
+  width: 100%;
+  padding: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--hud-text-primary);
+  background: var(--hud-bg-medium);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300f0ff' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-md) center;
+  padding-right: var(--space-2xl);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--hud-primary);
+  box-shadow: var(--hud-glow-sm);
+}
+
+.noDevices {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--hud-text-dim);
+  background: var(--hud-bg-light);
+  border: 1px dashed var(--hud-border);
+  border-radius: var(--radius-sm);
+}
+
+.noDevicesIcon {
+  font-size: 1.25rem;
+  opacity: 0.6;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--hud-bg-light);
+  border-top: 1px solid var(--hud-border);
+}
+
+.resetButton {
+  padding: var(--space-md) var(--space-xl);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hud-text-dim);
+  background: transparent;
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.resetButton:hover {
+  color: var(--hud-warning);
+  border-color: var(--hud-warning);
+}
+
+.saveButton {
+  padding: var(--space-md) var(--space-xl);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hud-bg-dark);
+  background: var(--hud-primary);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: var(--hud-glow-sm);
+}
+
+.saveButton:hover:not(:disabled) {
+  background: var(--hud-text-primary);
+  box-shadow: var(--hud-glow-md);
+}
+
+.saveButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  
+  .header, .content, .actions {
+    padding: var(--space-md);
+  }
+  
+  .actions {
+    flex-direction: column-reverse;
+  }
+  
+  .resetButton, .saveButton {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .input, .select, .testButton, .resetButton, .saveButton {
+    font-size: 1rem;
+    padding: var(--space-lg) var(--space-xl);
+  }
+}

@@ -1,0 +1,269 @@
+/**
+ * StatusIndicator Component Styles - HUD / Sci-Fi FUI Theme
+ * 
+ * Clear visual states for connection status with futuristic design
+ * Requirements: 4.3
+ */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--hud-bg-panel);
+  border: 1px solid var(--hud-border);
+  border-radius: var(--radius-sm);
+  backdrop-filter: blur(10px);
+  min-width: 200px;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated border glow based on status */
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--hud-border);
+  transition: background var(--transition-normal);
+}
+
+/* Status-specific container styles */
+.connected {
+  border-color: var(--hud-accent);
+}
+
+.connected::before {
+  background: var(--hud-accent);
+  box-shadow: 0 0 10px var(--hud-accent-glow);
+}
+
+.disconnected {
+  border-color: var(--hud-error);
+}
+
+.disconnected::before {
+  background: var(--hud-error);
+  box-shadow: 0 0 10px var(--hud-error-glow);
+}
+
+.connecting {
+  border-color: var(--hud-warning);
+}
+
+.connecting::before {
+  background: var(--hud-warning);
+  box-shadow: 0 0 10px var(--hud-warning-glow);
+  animation: connecting-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes connecting-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Icon wrapper */
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background: var(--hud-bg-light);
+  border: 1px solid var(--hud-border-dim);
+  border-radius: var(--radius-sm);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: var(--hud-text-dim);
+  transition: color var(--transition-normal);
+}
+
+.connected .icon {
+  color: var(--hud-accent);
+  filter: drop-shadow(0 0 5px var(--hud-accent-glow));
+}
+
+.disconnected .icon {
+  color: var(--hud-error);
+  filter: drop-shadow(0 0 5px var(--hud-error-glow));
+}
+
+.connecting .icon {
+  color: var(--hud-warning);
+  filter: drop-shadow(0 0 5px var(--hud-warning-glow));
+  animation: icon-pulse 1s ease-in-out infinite;
+}
+
+@keyframes icon-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+}
+
+/* Content area */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--hud-text-secondary);
+}
+
+.status {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--hud-text-dim);
+}
+
+.connected .status {
+  color: var(--hud-accent);
+}
+
+.disconnected .status {
+  color: var(--hud-error);
+}
+
+.connecting .status {
+  color: var(--hud-warning);
+}
+
+/* Status indicator dot */
+.indicator {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all var(--transition-normal);
+}
+
+.indicator-connected {
+  background: var(--hud-accent);
+  box-shadow: 0 0 10px var(--hud-accent-glow);
+}
+
+.indicator-disconnected {
+  background: var(--hud-error);
+  box-shadow: 0 0 10px var(--hud-error-glow);
+}
+
+.indicator-connecting {
+  background: var(--hud-warning);
+  box-shadow: 0 0 10px var(--hud-warning-glow);
+}
+
+/* Pulsing animation for connecting state */
+.pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--hud-warning);
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    min-width: 160px;
+    padding: var(--space-sm) var(--space-md);
+    gap: var(--space-sm);
+  }
+  
+  .iconWrapper {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .label {
+    font-size: 0.625rem;
+  }
+  
+  .status {
+    font-size: 0.625rem;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Extra large screens - conference room displays */
+@media (min-width: 1920px) {
+  .container {
+    min-width: 260px;
+    padding: var(--space-lg) var(--space-xl);
+    gap: var(--space-lg);
+  }
+  
+  .iconWrapper {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .label {
+    font-size: 0.875rem;
+  }
+  
+  .status {
+    font-size: 0.875rem;
+  }
+  
+  .indicator {
+    width: 16px;
+    height: 16px;
+  }
+}
